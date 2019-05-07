@@ -1,0 +1,223 @@
+nav{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align:center;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    background-color: #ffffff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.19);
+}
+
+body{
+    font-family: 'Fira Sans Condensed', sans-serif;
+
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+li{
+    text-decoration: none;
+}
+
+
+
+.grid{
+    display: grid;
+}
+
+.logo{
+    max-width: 350px;
+    max-height: 150px ;
+    padding-right: 1%;
+}
+
+.main{
+    padding-top: 3%
+}
+
+.about{
+    padding-bottom: 3%
+
+}
+
+.skills{
+    padding-top: 3%
+}
+
+.contacto{
+    padding-top: 3%;
+    padding-bottom: 3%
+}
+.col-md-6{
+    text-align: center;
+}
+
+
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+    background-color: transparent;
+    width: 500px;
+    height: 350px;
+    perspective: 1000px; 
+    border-radius: 15px;/* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+    border-radius: 15px;
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+    
+    background:#67b1d5;
+    color: white;
+    transform: rotateY(180deg);
+    border-radius: 15px;
+  }
+
+
+  .proyecto1, .proyecto2, .proyecto3, .proyecto4{
+      display: table;
+      margin: 0 auto;
+  }
+
+  .proyecto1, .proyecto2{
+    margin-top: 15px
+    }
+  .proyecto3, .proyecto4{
+      margin-top: 25px
+  }
+
+  .card{
+      text-align: center
+  }
+
+  .icons{
+      width: 90px;
+      height: 90px;
+      margin-bottom: 10px;
+      transition: transform .3s;
+  }
+
+.icons:hover{
+    transform: scale(1.3); 
+}
+  .bottom{
+      margin-top: 15px
+  }
+
+  h2{
+    font-weight: bold;
+  }
+
+  .navbar-brand{
+      color: black;
+  }
+  .navbar-brand:hover{
+    color: #67b1d5;
+  }
+
+  .icono{
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+    transition: transform .3s;
+  }
+
+  .icono:hover{
+    transform: scale(1.3); 
+}
+
+  .footer{
+      text-align: center;
+      padding-top: 2%;
+      padding-bottom: 1%
+  }
+  
+.text{
+    margin-top:25%
+}
+
+.logo1{
+    max-width: 250px;
+    max-height: 80px ;
+}
+
+
+@media(max-width:876px){
+    .flip-card {
+        max-width: 320px;
+        max-height: 200px;
+        border-radius: 15px;
+
+    }
+    .logo{
+        display: none;
+    }
+
+    .imgs{
+        max-width: 320px;
+        max-height: 200px;
+        
+    }
+
+    .text{
+        margin-top:10%;
+    }
+
+    #header{
+        display: none
+    }
+}
+
+
+.vertical{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(15%);
+    transform: translateY(15%);
+}
+
+.roger p{
+    text-align: justify;
+}
+
+#proyecto{
+    background-color:#E7E7E7 !important;
+}
+
+.card{
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.19);
+}
