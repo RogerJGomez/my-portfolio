@@ -178,18 +178,14 @@ li{
 
 @media(max-width:876px){
     .flip-card {
-        max-width: 320px;
-        max-height: 200px;
+        width: 320px !important;
+        height: 200px !important;
         border-radius: 15px;
 
     }
-    .logo{
-        display: none;
-    }
-
     .imgs{
-        max-width: 320px;
-        max-height: 200px;
+        width: 320px !important;
+        height: 200px !important;
         
     }
 
