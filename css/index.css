@@ -9,7 +9,8 @@ nav{
 
 body{
     font-family: 'Questrial', sans-serif !important;
-
+    background: rgb(218,222,223);
+    background: radial-gradient(circle, rgba(218,222,223,1) 0%, rgb(44, 167, 61) 100%);
 }
 
 a:hover{
@@ -225,3 +226,8 @@ li{
 #header{
  color: rgb(44, 167, 61)
 }    
+
+
+.flag{
+    height: 25px;
+}
